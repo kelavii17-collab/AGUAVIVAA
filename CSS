@@ -1,0 +1,28 @@
+/* El logotipo del encabezado */
+.logo img {
+    max-width: 150px; /* Ajusta este número si quieres el logo más chico o más grande */
+}
+
+/* Los 4 iconos de acceso rápido */
+.acceso-rapido img {
+    width: 80px;      /* Hace que los iconos sean pequeños y uniformes */
+    height: 80px;
+    margin: 0 auto;   /* Los centra */
+    object-fit: cover; /* Evita que se distorsionen */
+}
+
+/* Las imágenes de las 3 noticias (plásticos, químicos, agricultura) */
+.articulos article img {
+    width: 100%;
+    max-height: 250px; /* Les da una altura fija para que los tres artículos midan lo mismo */
+    object-fit: cover; /* Corta la imagen estéticamente para que no se estire feo */
+    border-radius: 5px; /* Les da una ligera curvatura en las esquinas */
+}
+
+/* Los iconos de las redes sociales abajo */
+.social img {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin: 0 5px;
+}
